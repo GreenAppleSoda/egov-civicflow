@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package egovframework.example.sample.web;
+package egovframework.civicflow.sample.web;
 
 import java.util.List;
 
@@ -29,8 +29,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import egovframework.example.sample.service.EgovSampleService;
-import egovframework.example.sample.service.SampleVO;
+import egovframework.civicflow.sample.service.EgovSampleService;
+import egovframework.civicflow.sample.service.SampleVO;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;

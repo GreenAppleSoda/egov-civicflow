@@ -1,4 +1,4 @@
-package egovframework.example.pagination;
+package egovframework.civicflow.pagination;
 
 import java.util.Collections;
 import java.util.Set;

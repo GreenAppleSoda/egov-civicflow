@@ -1,4 +1,4 @@
-package egovframework.example.config;
+package egovframework.civicflow.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.MessageSource;

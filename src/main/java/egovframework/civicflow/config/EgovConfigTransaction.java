@@ -1,4 +1,4 @@
-package egovframework.example.config;
+package egovframework.civicflow.config;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -51,7 +51,7 @@ public class EgovConfigTransaction {
 	@Bean
 	public Advisor txAdvisor(@Qualifier("txManager") DataSourceTransactionManager txManager) {
 		AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
-		pointcut.setExpression("execution(* egovframework.example.sample..impl.*Impl.*(..))");
+		pointcut.setExpression("execution(* egovframework.civicflow.sample..impl.*Impl.*(..))");
 		return new DefaultPointcutAdvisor(pointcut, txAdvice(txManager));
 	}
 

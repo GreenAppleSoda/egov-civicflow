@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package egovframework.example.sample.service.impl;
+package egovframework.civicflow.sample.service.impl;
 
 import java.util.List;
 
@@ -23,8 +23,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import egovframework.example.sample.service.EgovSampleService;
-import egovframework.example.sample.service.SampleVO;
+import egovframework.civicflow.sample.service.EgovSampleService;
+import egovframework.civicflow.sample.service.SampleVO;
 import jakarta.annotation.Resource;
 
 /**

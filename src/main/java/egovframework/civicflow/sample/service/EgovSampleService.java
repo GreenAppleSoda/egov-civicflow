@@ -1,5 +1,5 @@
 /*
- * Copyright 2011 MOPAS(Ministry of Public Administration and Security).
+ * Copyright 2008-2009 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,31 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package egovframework.example.sample.service.impl;
+package egovframework.civicflow.sample.service;
 
 import java.util.List;
 
-import org.egovframe.rte.psl.dataaccess.mapper.EgovMapper;
-
-import egovframework.example.sample.service.SampleVO;
-
 /**
- * sample에 관한 데이터처리 매퍼 클래스
+ * @Class Name : EgovSampleService.java
+ * @Description : EgovSampleService Class
+ * @Modification Information
+ * @
+ * @  수정일      수정자              수정내용
+ * @ ---------   ---------   -------------------------------
+ * @ 2009.03.16           최초생성
  *
- * @author  표준프레임워크센터
- * @since 2014.01.24
+ * @author 개발프레임웍크 실행환경 개발팀
+ * @since 2009. 03.16
  * @version 1.0
- * @see <pre>
- *  == 개정이력(Modification Information) ==
+ * @see
  *
- *          수정일          수정자           수정내용
- *  ----------------    ------------    ---------------------------
- *   2014.01.24        표준프레임워크센터          최초 생성
- *
- * </pre>
+ *  Copyright (C) by MOPAS All right reserved.
  */
-@EgovMapper("sampleMapper")
-public interface SampleMapper {
+public interface EgovSampleService {
 
 	/**
 	 * 글을 등록한다.
@@ -73,7 +69,7 @@ public interface SampleMapper {
 
 	/**
 	 * 글 목록을 조회한다.
-	 * @param vo - 조회할 정보가 담긴 VO
+	 * @param searchVO - 조회할 정보가 담긴 VO
 	 * @return 글 목록
 	 * @exception Exception
 	 */
@@ -81,7 +77,7 @@ public interface SampleMapper {
 
 	/**
 	 * 글 총 갯수를 조회한다.
-	 * @param vo - 조회할 정보가 담긴 VO
+	 * @param searchVO - 조회할 정보가 담긴 VO
 	 * @return 글 총 갯수
 	 * @exception
 	 */

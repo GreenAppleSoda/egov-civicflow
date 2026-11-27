@@ -1,4 +1,4 @@
-package egovframework.example.exception;
+package egovframework.civicflow.exception;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterThrowing;
@@ -15,7 +15,7 @@ public class EgovAopExceptionTransfer {
 		this.exceptionTransfer = exceptionTransfer;
 	}
 
-	@Pointcut("execution(* egovframework.example..impl.*Impl.*(..))")
+	@Pointcut("execution(* egovframework.civicflow..impl.*Impl.*(..))")
 	private void exceptionTransferService() {}
 
 	@AfterThrowing(pointcut="exceptionTransferService()", throwing="ex")

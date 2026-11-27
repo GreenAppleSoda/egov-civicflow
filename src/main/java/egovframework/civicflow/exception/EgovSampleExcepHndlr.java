@@ -1,4 +1,4 @@
-package egovframework.example.exception;
+package egovframework.civicflow.exception;
 
 import org.egovframe.rte.fdl.cmmn.exception.handler.ExceptionHandler;
 

@@ -1,4 +1,4 @@
-package egovframework.example.config;
+package egovframework.civicflow.config;
 
 import org.egovframe.rte.fdl.cmmn.aspect.ExceptionTransfer;
 import org.egovframe.rte.fdl.cmmn.exception.handler.ExceptionHandler;
@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.util.AntPathMatcher;
 
-import egovframework.example.exception.EgovAopExceptionTransfer;
-import egovframework.example.exception.EgovSampleExcepHndlr;
-import egovframework.example.exception.EgovSampleOthersExcepHndlr;
+import egovframework.civicflow.exception.EgovAopExceptionTransfer;
+import egovframework.civicflow.exception.EgovSampleExcepHndlr;
+import egovframework.civicflow.exception.EgovSampleOthersExcepHndlr;
 
 @Configuration
 @EnableAspectJAutoProxy

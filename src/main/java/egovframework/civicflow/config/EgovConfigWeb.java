@@ -1,4 +1,4 @@
-package egovframework.example.config;
+package egovframework.civicflow.config;
 
 import java.util.List;
 import java.util.Properties;
@@ -20,8 +20,8 @@ import org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring6.view.ThymeleafViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 
-import egovframework.example.pagination.EgovKrdsPaginationRenderer;
-import egovframework.example.pagination.EgovPaginationDialect;
+import egovframework.civicflow.pagination.EgovKrdsPaginationRenderer;
+import egovframework.civicflow.pagination.EgovPaginationDialect;
 
 @Configuration
 @Import({
